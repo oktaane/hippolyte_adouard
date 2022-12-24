@@ -62,7 +62,7 @@ const tl = gsap.timeline({
   scrollTrigger: {
     scrub: 1,
     start: "top top",
-    end: "bottom center",
+    end: "bottom bottom",
   },
 });
 Circles.forEach((c) => {
